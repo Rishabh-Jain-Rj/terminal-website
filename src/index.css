@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Stick&family=Wallpoet&family=Schoolbell&display=swap");
+
+.font-1 {
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-2 {
+  font-family: "Stick", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-3 {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+::-webkit-scrollbar {
+  display: none !important;
+}
